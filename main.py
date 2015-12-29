@@ -60,4 +60,4 @@ for line in lst_file:
     call(["ffmpeg", "-i", dw_path + name + ".mp4", mp3_path + name + ".mp3"])
 
 print "\nFinish!\nDownloaded all videos and converted them to mp3."
-
+lst_file.close()
